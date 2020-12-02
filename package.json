@@ -1,0 +1,29 @@
+{
+  "name": "blog_learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/locnx-iotvn/nodejs_blog_learn.git"
+  },
+  "keywords": [
+    "dunghoitao123"
+  ],
+  "author": "locnx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/locnx-iotvn/nodejs_blog_learn/issues"
+  },
+  "homepage": "https://github.com/locnx-iotvn/nodejs_blog_learn#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
