@@ -1,6 +1,11 @@
 const express = require('express')
+var morgan = require('morgan')
 const app = express()
 const port = 3000
+
+
+app.use(morgan('combined'))
+
 
 app.get('/tintuc', (req, res) => {
   var a = 1;
